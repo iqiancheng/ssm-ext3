@@ -30,7 +30,7 @@ Ext.onReady(function(){
         containerScroll: true,
         border: false,
         // auto create TreeLoader
-        dataUrl: 'json/menu',
+        dataUrl: 'menu',
 
         root: {
             nodeType: 'async',

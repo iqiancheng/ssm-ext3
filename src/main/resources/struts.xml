@@ -5,8 +5,9 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
+    <constant name="struts.objectFactory" value="spring"/>
     <package name="json" extends="json-default">
-        <action name="menu" class="com.carl.action.MenuAction">
+        <action name="menu" class="menuAction">
             <result type="json">
                 <param name="root">menus</param>
             </result>
